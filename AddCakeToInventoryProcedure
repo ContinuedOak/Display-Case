@@ -54,7 +54,7 @@ public class AddCakeToInventoryProcedure {
 			return;
 
 		BlockPos pos = BlockPos.containing(x, y, z);
-		   if ((world.getBlockState(BlockPos.containing(x, y, z))).is(BlockTags.create(ResourceLocation.parse("oaksdelight:display_case")))) 
+		   if ((world.getBlockState(BlockPos.containing(x, y, z))).is(BlockTags.create(ResourceLocation.parse("oaksdelight:display_case")))) // Determains the block that can be used
 		   {
 
 
